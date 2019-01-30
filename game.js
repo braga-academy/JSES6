@@ -1,3 +1,9 @@
-'use strict';
+"use strict";
 
-var name = 'teste';
+var a = 1;
+{
+    var b = 2;
+    document.write(b);
+}
+
+document.write(a);
